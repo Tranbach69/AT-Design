@@ -1,0 +1,55 @@
+.backGroundColor{
+  background-color: red;
+}
+.atButton{
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid transparent;
+  padding: 4px 8px 4px 8px;
+  cursor: pointer;
+  transition: all .2s cubic-bezier(.645,.045,.355,1);
+  font-family: 'Gg Sans', sans-serif;
+  font-size: 14px;
+  color: rgba(0,0,0,.88);
+  white-space: nowrap;
+  background-color: #fff;
+  border-color: #d9d9d9;
+  box-shadow: 0 2px 0 rgba(0,0,0,.02);
+  user-select: none;
+    touch-action: manipulation;
+    line-height: 1.5714285714285714;
+
+    &:hover{
+      color: #9f7444;
+      border-color: #9f7444;
+    }
+}
+.primary{
+  background-color: #0D6EFD;
+  color: #fff;
+}
+.secondary{
+  background-color: #6C757D;
+  color: #fff;
+}
+.success{
+  background-color: #198754;
+  color: #fff;
+}
+.danger{
+  background-color: #DC3545;
+  color: #fff;
+}
+.warning{
+  background-color: #FFC107;
+}
+.info{
+  background-color: #0DCAF0;
+}
+.light{
+  background-color: #F8F9FA;
+}
+.dark{
+  background-color: #212529;
+  color: #fff;
+}
